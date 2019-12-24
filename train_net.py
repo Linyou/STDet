@@ -36,7 +36,7 @@ from detectron2.evaluation import (
     verify_results,
 )
 from detectron2.modeling import GeneralizedRCNNWithTTA
-from . import datasets
+import datasets
 
 class Trainer(DefaultTrainer):
     """
