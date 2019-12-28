@@ -19,7 +19,7 @@ SPLITS = {
     "sfdet_train": ("/home/youtian/data/ft_det/ft_det_cleanedup/images", 
                     "/home/youtian/data/ft_det/ft_det_cleanedup/train.json"),
     "sfdet_val": ("/home/youtian/data/ft_det/ft_det_cleanedup/images", 
-                  "/home/youtian/data/ft_det/ft_det_cleanedup/val.json"),
+                  "/home/youtian/data/ft_det/ft_det_cleanedup/valid.json"),
 }
 
 
