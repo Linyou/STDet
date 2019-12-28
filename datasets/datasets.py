@@ -35,5 +35,5 @@ for key, (image_root, json_file) in SPLITS.items():
     )
 
     MetadataCatalog.get(key).set(
-        json_file=json_file, image_root=image_root, 
+        json_file=json_file, image_root=image_root, **get_metadata()
     )
